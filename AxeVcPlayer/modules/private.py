@@ -107,15 +107,15 @@ def map(pos):
             ],
             [
                 InlineKeyboardButton(
-                    text="📲 Updates", url=f"https://t.me/{UPDATES_CHANNEL}"
+                    text="📲 Updates", url=f"https://t.me/AxeVcplayer_helpers"
                 ),
                 InlineKeyboardButton(
-                    text="💬 Support", url=f"https://t.me/{SUPPORT_GROUP}"
+                    text="💬 Support", url=f"https://t.me/hindigroup1326"
                 ),
             ],
             [
                 InlineKeyboardButton(
-                    text="🛠 Source Code 🛠", url=f"https://{SOURCE_CODE}"
+                    text="🛠 Source Code 🛠", url=f"https://github.com/OmegaXking/AxeVcPlayer"
                 )
             ],
             [InlineKeyboardButton(text="◀️", callback_data=f"help+{pos-1}")],
