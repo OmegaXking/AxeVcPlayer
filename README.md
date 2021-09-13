@@ -1,57 +1,58 @@
-# LoveG_Music
-Host your own Telegram Music Bot ⬇️
+<h1 align="centre">DAISYXMUSIC V5.0 🎵</h1>
+
+### A bot that can play music on Telegram Group and Channel Voice Chats
+#### POWERED BY [MARSHALX TGCALLS](https://github.com/MarshalX/tgcalls)
+### Available on telegram as [@DaisyXbot](https://t.me/daisyxbot)
 
 <p align="center">
-  <img src="https://telegra.ph/file/159bd948d895523f46a7e.jpg">
-  </p>
- <h3>Deploy to Heroku click the blow button ⬇️ </h>
- 
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/OmegaXking/AxeVcPlayer">
-  <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy"width="200" height="50">
-  </a></p>
+  <img src="https://telegra.ph/file/dd04b1968f1bc1169d162.jpg">
+</p>
 
-- [[AxeVcplayer Support](http://t.me/AxeVcplayer_Support)]
+<h2> Features 🔥 </h2>
 
-- [[AxeVcplayer helpers](https://t.me/AxeVcplayer_helpers)]
+- Thumbnail Support
+- Playlist Support
+- Current playback support
+- Showing track names when skipping
+- Zero downtime, Fully Stable
+- Deezer,Youtube & Saavn playback support
+- Settings panel
+- Control with buttons
+- Userbot auto join
+- Channel Music Play
+- Keyboard selection support for youtube play
 
-- [[😍 ᏆΝᏟᎡᎬᎠᏆᏴᏞᎬ ᏟᎻᎪͲͲᏆΝᏀ ᏀᎡøႮᏢ😍](https://t.me/hindigroup1326)]
+## 🚀 Deployment
 
-  
+### 💜 Heroku/Railway
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/TeamDaisyX/DaisyXMusic)
+[![Deploy+on+Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/TeamDaisyX/DaisyXMusic&envs=SESSION_NAME,BOT_TOKEN,BOT_USERNAME,BOT_NAME,SUPPORT_GROUP,PROJECT_NAME,ARQ_API_KEY,ASSISTANT_NAME,BG_IMAGE,UPDATES_CHANNEL,API_ID,API_HASH,SUDO_USERS,DURATION_LIMIT)
+
+Get pyrogram (p)  `SESSION` from here:
+
+[![Run on Repl.it](https://repl.it/badge/github/ChankitSaini/GenerateStringSession)](https://replit.com/@ChankitSaini/GenerateStringSession)
+
+### ⚔ Self-hosting (For Devs) 
+```sh
+# Install Git First (apt-get install git)
+$ git clone https://github.com/TeamDaisyX/DaisyXmusic
+$ cd DaisyXMusic
+# Upgrade sources
+# Install All Requirements 
+$ pip3 install -U -r requirements.txt
+# Fork This Repo and fill config.py vars with your own values.Then Start The Bot
+$ python3 -m DaisyXMusic
 ```
-Please fork this repository don't import code
-Made with Python3
-(C) @OmegaXKing
 
-```
-
-
-
-### Mandatory Vars.
-
-- Some Of The Mandatory Vars Are :-
-
-- Get API__ID from here:  [![Get API__ID](https://img.shields.io/badge/API__-ID-blue)](https://my.telegram.org)
-
-- Get API__HASH from here:  [![Get API__HASH](https://img.shields.io/badge/API__-HASH-blue)](https://my.telegram.org)
-
-- Get BOT TOKEN from here:  [![Get Bot Token from BotFather](https://img.shields.io/badge/Bot__-Token-blue)](https://t.me/BotFather)
-
-- Get UDO USERS from here:  [![Get Sudo Users Id](https://img.shields.io/badge/Sudo__-USERS-blue)](https://t.me/MissRose_bot)  [Send /id]
-
-- Get STRING_NAME from here:  [![GenerateString](https://img.shields.io/badge/Repl.it-Generate%20String-yellow)](https://replit.com/@OmegaXking/AxeVcPlayer?v=1)
-
-
-
-
-
-## Commands 🛠
 ### Commands for Group 🛠
 #### For all in group
 
 - `/play <song name>` - play song you requested
 - `/play <reply to audio>` - play replied file
+- `/dplay <song name>` - play song you requested via deezer
 - `/splay <song name>` - play song you requested via jio saavn
-- `/ytplay <song name>` - Directly play song via Youtube Music
+- `/ytplay <song name>`: Directly play song via Youtube Music
 - `/playlist` - Show now playing list
 - `/current` - Show now playing
 - `/song <song name>` - download songs you want quickly
@@ -91,8 +92,7 @@ For linked group admins only:
 If you donlt like to play in linked channel:
  1. Get your channel ID.
  2. Rename your group to: Channel Music: your_channel_id
- 3. Add [AxeVcPlayer_bot](https://t.me/AxeVcPlayer_bot) as Channel admin with full perms
- - Add Bot: [![AxeVcPlayer](https://img.shields.io/badge/Bot-AxeVcPlayer-informational)](https://t.me/AxeVcPlayer_bot)
+ 3. Add @DaisyXBot as Channel admin with full perms
  4. add helper to channel
  5. Simply send commands in your group.
 
@@ -106,4 +106,36 @@ If you donlt like to play in linked channel:
 - `.da` - disapproove someone to pm you
 + Sudo Users can execute any command in any groups
 
-<h1> Thankyou For Using This Repository For Your Music Bot </h>
+
+
+### Inspiration
+- [Callsmusic](http://github.com/callsmusic/callsmusic)
+- [tgvc-userbot](https://github.com/callsmusic/tgvc-userbot)
+
+This project is inspired on the hard work done by [Rojserbest](http://github.com/rojserbest). Without his hardwork daisyxmusic won't exist. 
+Also DaisyXmusic is inspired by many opensource bots and userbots
+
+### Don't Edit This Part
+
+#### Developers &Contribtors
+- [InukaASiTH](https://github.com/InukaAsith): Dev/Owner
+- [Technical-Hunter](https://github.com/Technical-Hunter): Dev/Owner
+- [lucifeermorningstar](https://github.com/lucifeermorningstar): Dev/Owner
+- [Rojserbest](http://github.com/rojserbest): Dev of callsmusic
+- [Wrench](https://github.com/EverythingSuckz/): Dev
+- [Bemro](https://github.com/bemroofficial): Dev
+- [QueenArzoo](https://github.com/QueenArzoo): Dev
+- [HamkerCat](https://github.com/thehamkercat/)
+- [AnjanaMadu](https://github.com/AnjanaMadu): 
+- [ImJanindu](https://github.com/ImJanindu): 
+- [MARSHALX](https://github.com/MarshalX): TgCalls
+- [Original Repo owners](https://github.com/CallsMusic/CallsMusic)
+
+
+## Copyright & License 👮
+
+ - Copyright (C) 2020 - 2021 by [TeamDaisyX](github.com/teamdaisyx) ❤️️
+ - Licensed under the terms of the [GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007](https://github.com/TeamDaisyX/DaisyXMusic/blob/master/LICENSE)
+    
+DaisyXMusic is Free Software: You can use, study share and improve it at your will. Specifically you can redistribute and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.    
+## Made with ♥️ by [TeamDaisyX](https://github.com/TeamDaisyX)
