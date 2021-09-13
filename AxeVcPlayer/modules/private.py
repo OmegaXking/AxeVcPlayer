@@ -33,10 +33,10 @@ def _start(client, message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "📲 Updates", url=f"https://t.me/{UPDATES_CHANNEL}"
+                        "📲 Updates", url=f"https://t.me/AxeVcplayer_Support"
                     ),
                     InlineKeyboardButton(
-                        "💬 Support", url=f"https://t.me/{SUPPORT_GROUP}"
+                        "💬 Support", url=f"https://t.me/hindigroup1326"
                     ),
                 ],
                 [InlineKeyboardButton("🛠 Commands 🛠", url=f"https://telegra.ph/AxeVcPlayer-Commands-09-13")],
@@ -54,7 +54,7 @@ async def gstart(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "💬 Support Chat", url=f"https://t.me/{SUPPORT_GROUP}"
+                        "💬 Support Chat", url=f"https://t.me/hindigroup1326"
                     )
                 ]
             ]
@@ -97,12 +97,12 @@ def map(pos):
     if pos == 1:
         button = [[InlineKeyboardButton(text="▶️", callback_data="help+2")]]
     elif pos == len(tr.HELP_MSG) - 1:
-        url = f"https://t.me/{SUPPORT_GROUP}"
+        url = f"https://t.me/hindigroup1326"
         button = [
             [
                 InlineKeyboardButton(
                     "➕ Add me to your Group 🙋‍♀️",
-                    url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
+                    url=f"https://t.me/AxeVcPlayer_bot?startgroup=true",
                 )
             ],
             [
@@ -139,7 +139,7 @@ async def ghelp(_, message: Message):
                 [
                     InlineKeyboardButton(
                         "🟡 Click here for help 🟡",
-                        url=f"https://t.me/{BOT_USERNAME}?start",
+                        url=f"https://t.me/AxeVcPlayer_bot?start",
                     )
                 ]
             ]
