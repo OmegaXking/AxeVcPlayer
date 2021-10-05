@@ -1,8 +1,10 @@
 
 
 import requests
+from modules.play import app
+from modules.play import call_py
 from pyrogram import Client as Bot
-
+from pyrogram import Client, idle
 from AxeVcPlayer.config import API_HASH, API_ID, BG_IMAGE, BOT_TOKEN
 from AxeVcPlayer.services.callsmusic import run
 
