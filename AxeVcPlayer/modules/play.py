@@ -39,6 +39,7 @@ from AxeVcPlayer.services.converter.converter import convert
 from AxeVcPlayer.services.downloaders import youtube
 from AxeVcPlayer.services.queues import queues
 # Video
+idle = Idle
 aiohttpsession = aiohttp.ClientSession()
 chat_id = None
 arq = ARQ("https://thearq.tech", ARQ_API_KEY, aiohttpsession)
