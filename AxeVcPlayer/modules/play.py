@@ -8,7 +8,7 @@ import aiohttp
 import ffmpeg
 import requests
 import wget
-from pytgcalls import idle
+from pytgcalls import clont
 from pytgcalls import PyTgCalls
 from pytgcalls import StreamType
 from pytgcalls.types.input_stream import AudioParameters
